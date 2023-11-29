@@ -16,6 +16,11 @@ public class Program2 {
 		System.out.println("\n=== TEST 2: department Update ====");
 		Department dep1 = new Department(6,"Tables");
 		depDao.update(dep1);
+		
+		System.out.println("\n=== TEST 3: department Delete ====");
+		depDao.deleteById(7);
+		
+		
 
 	}
 
